@@ -1,108 +1,84 @@
-━━━━━━━━━━━━━━━━━━━━
+# 𝗖ᴜᴛᴇ ✘ 𝗠𝗨𝗦𝗜𝗖 𝗕𝗢𝗧
 
-<h2 align="center">
-    ──「⛦🦋 𝗕𝗥𝗔𝗡𝗗𝗥𝗗 ✘ 𝗠𝗨𝗦𝗜𝗖 🦋⛦」──
-</h2>
+A powerful and feature-rich Telegram music bot with advanced features for playing music in your group voice chats.
 
-<p align="center">
-  <img src="https://telegra.ph/file/d02b81736a7e9519c6386.jpg">
-</p>
+## Features
 
-<p align="center">
-<a href="https://github.com/WCGKING/stargazers"><img src="https://img.shields.io/github/stars/WCGKING/BrandrdXMusic?color=black&logo=github&logoColor=black&style=for-the-badge" alt="Stars" /></a>
-<a href="https://github.com/WCGKING/BrandrdXMusic/network/members"> <img src="https://img.shields.io/github/forks/WCGKING/BrandrdXMusic?color=black&logo=github&logoColor=black&style=for-the-badge" /></a>
-<a href="https://github.com/WCGKING/BrandrdXMusic/blob/master/LICENSE"> <img src="https://img.shields.io/badge/License-MIT-blueviolet?style=for-the-badge" alt="License" /> </a>
-<a href="https://www.python.org/"> <img src="https://img.shields.io/badge/Written%20in-Python-orange?style=for-the-badge&logo=python" alt="Python" /> </a>
-<a href="https://github.com/WCGKING/BrandrdXMusic/commits/WCGKING"> <img src="https://img.shields.io/github/last-commit/WCGKING/BrandrdXMusic?color=blue&logo=github&logoColor=green&style=for-the-badge" /></a>
-</p>
+- **High-Quality Music**: Stream high-quality music from YouTube, Spotify, SoundCloud, and more
+- **Multi-Platform Support**: YouTube, Spotify, Resso, AppleMusic, Soundcloud and Telegram audio/video files
+- **Playlist Support**: Play whole playlists from YouTube and Spotify
+- **Multi-Language**: Bot available in multiple languages
+- **Group Management**: Advanced commands for admins to control the music playback
+- **Fancy UI**: Beautiful inline buttons and interactive design
+- **Customizable**: Various settings to customize the bot for your group
+- **Lyrics Support**: Get lyrics for the songs you love
 
-━━━━━━━━━━━━━━━━━━━━
-</h2>
-<img src="https://readme-typing-svg.herokuapp.com?color=FF0000&width=420&lines=♦𝙳𝙴𝙿𝙻𝙾𝚈+𝙾𝙽+𝙷𝙴𝚁𝙾𝙺𝚄♦;📡+𝙽𝙾+𝙷𝙴𝚁𝙾𝙺𝚄+𝙱𝙰𝙽+𝙸𝚂𝚂𝚄𝙴+𝙰𝙻𝚂𝙾+𝚅𝙿𝚂+𝙳𝙴𝙿𝙻𝙾𝚈+📍+𝙿𝚁𝙴𝚂𝙴𝙽𝚃;❤️+𝙿𝙾𝚆𝙴𝚁𝙳+𝙱𝚈+𝗕𝗥𝗔𝗡𝗗𝗘𝗗+𝗞𝗜𝗡𝗚🔥">
+## Commands
 
-<p align="center">
-  <img src="https://telegra.ph/file/925eade709484516c5fe3.jpg">
-</p>
+Here are some of the available commands:
 
-<h3 align="center">
-    ─「 ᴅᴇᴩʟᴏʏ ᴏɴ ʜᴇʀᴏᴋᴜ 」─
-</h3>
+- `/play [song name/YouTube link]`: Play a song in the voice chat
+- `/pause`: Pause the current playback
+- `/resume`: Resume the paused playback
+- `/skip`: Skip to the next song
+- `/end`: End the playback
+- `/ping`: Check bot's ping and system stats
+- `/settings`: Adjust bot settings for your group
 
-<p align="center"><a href="https://dashboard.heroku.com/new?template=https://github.com/WCGKING/BrandrdXMusic"> <img src="https://img.shields.io/badge/Deploy%20On%20Heroku-black?style=for-the-badge&logo=heroku" width="220" height="38.45"/></a></p>
+## System Utilities
 
-</p>
+The bot comes with some useful system commands for bot owners:
 
-**𝙏𝙀𝙎𝙏 𝘽𝙊𝙏 ➣ [˹𝐁ʀᴀɴᴅᴇᴅ ꭙ 𝐂ʀᴇᴡ ꭙ 𝐌ᴜꜱɪᴄ™ ˹ʙꜱ](https://t.me/CrewMusic_bot)**
+- `/initializesystem`: Initialize the bot's system utilities
+- `/promote [message]`: Send promotional messages to groups where the bot is added
+- `/botstats`: Get statistics about the bot
+- `/verifyowner`: Verify your ownership of the bot instance
 
+## Deployment
 
+### Prerequisites
+- Python 3.7 or higher
+- A Telegram Account
+- A MongoDB Database
 
-<img src="https://readme-typing-svg.herokuapp.com?color=FF0000&width=420&lines=⚠️𝗙𝗢𝗥𝗞+𝗧𝗛𝗜𝗦+𝗥𝗘𝗣𝗢+𝗙𝗜𝗥𝗦𝗧𝗟𝗬⚠️">
+### Installation
 
-<h3 align="center">
-    ─「 ᴅᴇᴩʟᴏʏ ᴏɴ ʟᴏᴄᴀʟ ʜᴏsᴛ/ ᴠᴘs 」─
-</h3>
+1. Clone the repository:
+```bash
+git clone https://github.com/imtoiii/MusicBot.git
+cd MusicBot
+```
 
-- Get your [Necessary Variables](https://github.com/WCGKING/BrandrdXMusic/blob/master/sample.env)
+2. Install dependencies:
+```bash
+pip install -r requirements.txt
+```
+
+3. Copy the sample.env file to .env and fill in the required variables:
+```bash
+cp sample.env .env
+nano .env
+```
+
+4. Start the bot:
+```bash
+python3 -m BrandrdXMusic
+```
+
+### One-Click Deployment on Heroku
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/imtoiii/MusicBot)
+
+## Support
+
+For support, updates, and discussions, join our Telegram channel and group:
+
+- Channel: [@fucknhackerz](https://t.me/fucknhackerz)
+- Support: [@imtoxiii](https://t.me/imtoxiii)
+
+## License
+
+This project is licensed under the MIT License - see the LICENSE file for details.
+
 ---
 
-### 🔧 Quick Setup
-
-1. **Upgrade & Update:**
-   ```bash
-   sudo apt-get update && sudo apt-get upgrade -y
-   ```
-
-2. **Install Required Packages:**
-   ```bash
-   sudo apt-get install python3-pip ffmpeg -y
-   ```
-3. **Setting up PIP**
-   ```bash
-   sudo pip3 install -U pip
-   ```
-4. **Installing Node**
-   ```bash
-   curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.38.0/install.sh | bash && source ~/.bashrc && nvm install v18
-   ```
-5. **Clone the Repository**
-   ```bash
-   git clone https://github.com/WCGKING/BrandrdXMusic && cd BrandrdXMusic
-   ```
-6. **Install Requirements**
-   ```bash
-   pip3 install -U -r requirements.txt
-   ```
-7. **Create .env  with sample.env**
-   ```bash
-   cp sample.env .env
-   ```
-   - Edit .env with your vars
-8. **Editing Vars:**
-   ```bash
-   vi .env
-   ```
-   - Edit .env with your values.
-   - Press `I` button on keyboard to start editing.
-   - Press `Ctrl + C`  once you are done with editing vars and type `:wq` to save .env or `:qa` to exit editing.
-9. **Installing tmux**
-    ```bash
-    sudo apt install tmux -y && tmux
-    ```
-10. **Run the Bot**
-    ```bash
-    bash start
-━━━━━━━━━━━━━━━━━━━━
-
-<h3 align="center">
-    ─「 sᴜᴩᴩᴏʀᴛ 」─
-</h3>
-
-<p align="center">
-<a href="https://t.me/BRANDED_WORLD"><img src="https://img.shields.io/badge/-Support%20Group-blue.svg?style=for-the-badge&logo=Telegram"></a>
-</p>
-
-<p align="center">
-<a href="https://t.me/BRANDRD_BOT"><img src="https://img.shields.io/badge/-Support%20Channel-blue.svg?style=for-the-badge&logo=Telegram"></a>
-</p>
-
-- <b> _sᴩᴇᴄɪᴀʟ ᴛʜᴀɴᴋs ᴛᴏ [ᴛᴇᴀᴍ ʙʀᴀɴᴅᴇᴅ](https://github.com/WCGKING) ғᴏʀ [ʙʀᴀɴᴅᴇᴅ ᴍᴜsɪᴄ ʙᴏᴛ](https://t.me/BRANDRD_BOT)_</b>
+Made with ❤️ by [@imtoxiii](https://t.me/imtoxiii) 
