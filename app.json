@@ -1,0 +1,109 @@
+{
+    "name": "⛦ 𝗖ᴜᴛᴇ ✘ 𝗠𝗨𝗦𝗜𝗖 𝗕𝗢𝗧 ⛦",
+    "description": "A powerful and feature-rich Telegram Music Player Bot, with advanced customization options.",
+    "logo": "https://te.legra.ph/file/62c76ac2095332a0ede75.jpg",
+    "keywords": [
+    "python3",
+    "telegram",
+    "bot",
+    "CuteX",
+    "MusicBot",
+    "telegram-bot",
+    "pyrogram"
+    ],
+    "repository": "https://github.com/imtoiii/MusicBot",
+    "env": {
+      "API_ID": {
+        "description": "Get this value from https://my.telegram.org",
+        "value": "",
+        "required": true
+      },
+      "API_HASH": {
+        "description": "Get this value from https://my.telegram.org",
+        "value": "",
+        "required": true
+      },
+      "BOT_TOKEN": {
+        "description": "A Bot's token from Botfather",
+        "value": "",
+        "required": true
+      },
+      "MONGO_DB_URI": {
+        "description": "Get a mongodb url from https://cloud.mongodb.com.",
+        "value": "",
+        "required": true
+      },
+      "OWNER_ID": {
+        "description": "The user id of user whom you would like to add as OWNER.",
+        "value": "1336330730",
+        "required": true
+      },
+      "STRING_SESSION": {
+        "description": "A Pyrogram v2 String Session from @BRANDEDSTRINGSESSION_BOT on Telegram.",
+        "value": "",
+        "required": true
+      },
+      "HEROKU_API_KEY": {
+        "description": "Your Heroku account's API key",
+        "value": "",
+        "required": false
+      },
+      "HEROKU_APP_NAME": {
+        "description": "Your heroku app name",
+        "value": "",
+        "required": false
+      },
+      "LOGGER_ID": {
+        "description": "Your Log Group ID, add your bot and promote as an admin with full rights!. Don't Add Channel's ID.",
+        "value": "",
+        "required": true
+      },
+      "MUSIC_BOT_NAME": {
+        "description": "The name of your Music Bot.",
+        "value": "𝗖ᴜᴛᴇ ✘ 𝗠𝗨𝗦𝗜𝗖 𝗕𝗢𝗧",
+        "required": false
+      },
+      "SUPPORT_CHANNEL": {
+        "description": "Your Telegram channel link for updates.",
+        "value": "https://t.me/fucknhackerz",
+        "required": false
+      },
+      "SUPPORT_CHAT": {
+        "description": "Your Telegram support chat link.",
+        "value": "https://t.me/imtoxiii",
+        "required": false
+      },
+      "AUTO_GCAST": {
+        "description": "Enable or disable automatic broadcast messages (True/False).",
+        "value": "True",
+        "required": false
+      },
+      "AUTO_GCAST_MSG": {
+        "description": "The message to broadcast automatically.",
+        "value": "🎵 Enjoying Cute X Music Bot? Join @fucknhackerz for more awesome bots and tools! 🚀",
+        "required": false
+      },
+      "ENABLE_PROMOTION_SYSTEM": {
+        "description": "Enable or disable the promotion system (True/False).",
+        "value": "True",
+        "required": false
+      },
+      "PROMOTION_INTERVAL": {
+        "description": "Time interval in seconds for automatic promotions (default: 86400 = 24 hours).",
+        "value": "86400",
+        "required": false
+      }
+    },
+    "buildpacks": [
+          {
+              "url": "heroku/python"
+          },
+          {
+              "url": "heroku/nodejs"
+          },
+          {
+              "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest.git"
+          }
+      ],
+      "stack": "container"
+  }
